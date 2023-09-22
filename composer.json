@@ -1,0 +1,30 @@
+{
+  "name": "illia-nova/m2-module-checkout-discount",
+  "version": "1.0.0",
+  "description": "Checkout Discount Module",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-checkout": "100.4.*",
+    "php": ">=7.4||>=8.1"
+  },
+  "authors": [
+    {
+      "name": "Illia Nova (Kovalenko Novychenko)",
+      "email": "illia.kovalenkov@gmail.com",
+      "homepage": "https://github.com/IlliaKov",
+      "role": "Full Stack Developer"
+    }
+  ],
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "IlliaNova\\CheckoutDiscount\\": ""
+    }
+  }
+}
